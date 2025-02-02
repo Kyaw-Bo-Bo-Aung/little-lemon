@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #495E57; */
+  padding: 16px 0;
+}
+.header img {
+  width: 200px;
+  height: auto;
+}
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #495E57;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+}
+.header nav ul li a:hover {
+  background-color: #495E57;
+  color: #ffffff;
+}
+/* footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D9D9D9;
+}
+footer section {
+  width: 100%;
+  display: flex;
+  gap: 200px;
+} */
+footer img {
+  width: 162px;
+  height: 279px;
+}
