@@ -8,15 +8,12 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import HomePage from "./HomePage";
+import BookingPage from "./BookingPage";
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path='/' element={<HomePage/>} />
-      </Routes>
-      <Footer />
+      <Main />
     </Router>
   );
 }

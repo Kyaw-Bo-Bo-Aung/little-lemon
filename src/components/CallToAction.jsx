@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import BookingPage from "../BookingPage";
 
 const CallToAction = () => {
   return (
@@ -15,10 +17,10 @@ const CallToAction = () => {
             </p>
           </div>
           <span>
-            <button>Reserve a table</button>
+            <Link to="/booking"><button>Reserve a table</button></Link>
           </span>
         </div>
-        <img src="/assets/banner-img.jpg" width={230} height={300} />
+        <img alt="" src="/assets/banner-img.jpg" width={230} height={300} />
       </article>
     </section>
   );
