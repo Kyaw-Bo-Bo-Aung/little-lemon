@@ -1,8 +1,4 @@
 import React from "react";
-import AboutSection from "./AboutSection";
-import TestimonialSection from "./TestimonialSection";
-import MenuSection from "./MenuSection";
-import CallToAction from "./CallToAction";
 import Header from "./Header";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "../HomePage";
