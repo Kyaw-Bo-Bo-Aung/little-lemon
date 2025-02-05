@@ -78,6 +78,7 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
 
   return (
     <>
+    <h1>Book Now</h1>
       <form onSubmit={handleSubmit} className="booking-form">
         <label htmlFor="res-date">Choose date</label>
         <input
@@ -98,7 +99,7 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
           required
         >
           <option value="">Select a time</option>
-          {availableTimes.map((time) => (
+          {availableTimes?.map((time) => (
             <option key={time} value={time}>
               {time} (Available)
             </option>
@@ -130,7 +131,7 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
 
         <input
           type="submit"
-          value="Make Your Reservation"
+          value="Book"
           className="submit-btn"
         />
       </form>
