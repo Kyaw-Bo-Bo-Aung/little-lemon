@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the form correctly 1`] = `
+<div>
+  <h1>
+    Book Now
+  </h1>
+  <form
+    class="booking-form"
+  >
+    <label
+      for="date"
+    >
+      Choose date
+    </label>
+    <input
+      id="date"
+      name="date"
+      required=""
+      type="date"
+    />
+    <label
+      for="res-time"
+    >
+      Choose time
+    </label>
+    <select
+      id="res-time"
+      name="time"
+      required=""
+    >
+      <option>
+        Select a time
+      </option>
+    </select>
+    <label
+      for="guests"
+    >
+      Number of guests
+    </label>
+    <input
+      name="guests"
+      type="number"
+    />
+    <label
+      for="occasion"
+    >
+      Occasion
+    </label>
+    <select
+      id="occasion"
+      name="occasion"
+    >
+      <option>
+        Birthday
+      </option>
+      <option>
+        Anniversary
+      </option>
+    </select>
+    <input
+      class="submit-btn"
+      type="submit"
+      value="Book"
+    />
+  </form>
+</div>
+`;
